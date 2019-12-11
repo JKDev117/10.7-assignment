@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Park Finder</title>
+    <link href="index.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <form><span>Search for parks in:</span><br>
+        <section class="options">
+            <input type="checkbox" value="AL">Alabama</input><br>
+            <input type="checkbox" value="AK">Alaska</input><br>
+            <input type="checkbox" value="AZ">Arizona</input><br>
+            <input type="checkbox" value="AR">Arkansas</input><br>
+            <input type="checkbox" value="CA">California</input><br>
+            <input type="checkbox" value="CO">Colorado</input><br>
+            <input type="checkbox" value="CT">Connecticut</input><br>
+            <input type="checkbox" value="DE">Delaware</input><br>
+            <input type="checkbox" value="DC">District of Columbia</input><br>
+            <input type="checkbox" value="FL">Florida</input><br>
+            <input type="checkbox" value="GA">Georgia</input><br>
+            <input type="checkbox" value="HI">Hawaii</input><br>
+            <input type="checkbox" value="ID">Idaho</input><br>
+            <input type="checkbox" value="IL">Illinois</input><br>
+            <input type="checkbox" value="IN">Indiana</input><br>
+            <input type="checkbox" value="IA">Iowa</input><br>
+            <input type="checkbox" value="KS">Kansas</input><br>
+            <input type="checkbox" value="KY">Kentucky</input><br>
+            <input type="checkbox" value="LA">Louisiana</input><br>
+            <input type="checkbox" value="ME">Maine</input><br>
+            <input type="checkbox" value="MD">Maryland</input><br>
+            <input type="checkbox" value="MA">Massachusetts</input><br>
+            <input type="checkbox" value="MI">Michigan</input><br>
+            <input type="checkbox" value="MN">Minnesota</input><br>
+            <input type="checkbox" value="MS">Mississippi</input><br>
+            <input type="checkbox" value="MO">Missouri</input><br>
+            <input type="checkbox" value="MT">Montana</input><br>
+            <input type="checkbox" value="NE">Nebraska</input><br>
+            <input type="checkbox" value="NV">Nevada</input><br>
+            <input type="checkbox" value="NH">New Hampshire</input><br>
+            <input type="checkbox" value="NJ">New Jersey</input><br>
+            <input type="checkbox" value="NM">New Mexico</input><br>
+            <input type="checkbox" value="NY">New York</input><br>
+            <input type="checkbox" value="NC">North Carolina</input><br>
+            <input type="checkbox" value="ND">North Dakota</input><br>
+            <input type="checkbox" value="OH">Ohio</input><br>
+            <input type="checkbox" value="OK">Oklahoma</input><br>
+            <input type="checkbox" value="OR">Oregon</input><br>
+            <input type="checkbox" value="PA">Pennsylvania</input><br>
+            <input type="checkbox" value="RI">Rhode Island</input><br>
+            <input type="checkbox" value="SC">South Carolina</input><br>
+            <input type="checkbox" value="SD">South Dakota</input><br>
+            <input type="checkbox" value="TN">Tennessee</input><br>
+            <input type="checkbox" value="TX">Texas</input><br>
+            <input type="checkbox" value="UT">Utah</input><br>
+            <input type="checkbox" value="VT">Vermont</input><br>
+            <input type="checkbox" value="VA">Virginia</input><br>
+            <input type="checkbox" value="WA">Washington</input><br>
+            <input type="checkbox" value="WV">West Virginia</input><br>
+            <input type="checkbox" value="WI">Wisconsin</input><br>
+            <input type="checkbox" value="WY">Wyoming</input><br>
+        </section>
+
+        <span>Max number of results:</span>
+        <input type="number" id="limitNum" min="1" max="50" value="10" required>
+        <input type="submit" value="Submit"><br>
+    </form>
+    <button id="selectAll">Select All</button>
+    <button id="deselectAll">Deselect All</button>
+    
+
+    <section id="results">
+        <ul id="results-list">
+        </ul>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" 
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" 
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+
+
+</html>

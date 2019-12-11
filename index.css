@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 2em;
+}
+
+span {
+    font-weight: bold;
+}
+
+.options {
+    margin: 1em 0;
+    border: 1px solid black;
+    padding: 1em;
+    height: 250px;
+    overflow: scroll;
+}
+
+input[type="checkbox"]{
+    margin: 5px;
+}
+
+#results {
+    margin-top: 3em;
+}
+
